@@ -1,0 +1,81 @@
+Launching Sublime from command-line
+
+>> echo 'alias subl="C:/Program\ Files/Sublime\ Text\ 2/sublime_text.exe"' >> ~/.bashrc
+>> cd ~                          # change directories to your home directory
+>> mkdir version-control         # make version-control directory
+>> cd version-control            # go to version-control directory
+>> mkdir reflections             # create reflections directory
+>> cd reflections                # go to reflections directory
+>> subl lesson_1_reflections.txt # launch sublime with file called lesson_1_reflections.txt
+                                 #(you can replace subl with another
+                                 #editor here if you prefer a different one)
+
+
+How did viewing a diff/FC between two versions of a file help you see
+the bug that was introduced?
+
+>> diff/CF takes two parameters the 'new file' followed by the 'old file'
+>> and points out all the lines where the 'new file' differs from 'the old file'
+>> in terms of content of the line.
+
+
+How could having easy access to the entire history of file make you a more
+efficient programmer?
+
+>>At any point in time I can revert my code back to a previous state, if new
+>>changes are causing a problem.
+>>All the changes made to the old code can be pin pointed.
+
+
+What do you think are the pros and cons of manually choosing when to commit,
+like you do in Git, vs having versions automatically saved, like Google Docs
+does?
+
+>>PROS:
+>> - Gives user the control of defining a checkpoint in their progress
+>> - User can commit any number of times at any point in time
+>> - The commits are likely to represent a more logical and understandable
+>>   change than an automatic commit
+
+>>CONS:
+>> - Human error in commits a can be introduced such as forgetting to commit
+>> - Power failure can cause the changes not to be committed
+>> - Wastes time
+>> - Hard to track files
+
+
+Why do you think some version control systems, like Git, allow saving multiple
+file sin one commit, while others, like Google Docs, treat each file separately?
+
+>> Programmers and programming languages/practices encourage abstraction of
+>> code, which is why using the object oriented approach every logically
+>> separate module is kept in a separate file. Since, Git is for code, it
+>> behooves the system to track and commit these separate files as they are
+>> dependent on each other as part of an application.
+>> On Google Drive, on the other-hand every file is treated independent of each
+>> other, thus tacking files is not required.
+
+
+How can you use the commands git log and git diff to view the history of files?
+
+>> git log gives a list of all the commits made to the repository in chronological
+>> order, along with commit IDs, descriptions and date and time of commit.
+>> git diff gives the difference between two files, it can also use commit IDs
+>> to compare the differences between two commits.
+>> With git log we can view all the commits that were made to the repository
+>> and with git diff we can compare the changes made in each commit with another
+>> other commit.
+
+
+How might using version control make you more confident to make changes that
+could break something?
+
+>> Since, in a repository every commit made is saved, the repository can be
+>> at any point reset to a previous working state using 'git checkout COMMIT_ID'
+>> command. Also the erroneous commit can then be checked using the 'git diff'
+>> command to pin point where the error occurred in the code.
+
+
+How do you want to use Git?
+
+>> I like to use Git as is it works as expected
