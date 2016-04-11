@@ -16,10 +16,15 @@ What value do you think it offers?
 >> to be added to the repository.
 >> Commits made should be logically independent i.e. one commit per logical
 >> change. So, instead of committing the entire directory by calling "git commit"
->> small changes can be committed through the use of staging area.    
+>> small changes can be committed through the use of staging area.
 
 How can you use the staging area to make sure you have one commit per logical
 change?
+
+>> Staging area allows us to add individual files, to which a logical change has
+>> been made, Instead of committing the entire working directory every time a
+>> change has been made to any of the files in the directory. Staging area allows
+>> us to document these individual changes with commit messages.    
 
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
