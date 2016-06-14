@@ -11,7 +11,7 @@ Launching Sublime from command-line
                                  #editor here if you prefer a different one)
 
 
-How did viewing a diff/FC between two versions of a file help you see
+How did viewing a diff/CF between two versions of a file help you see
 the bug that was introduced?
 
 >> diff/CF takes two parameters the 'new file' followed by the 'old file'
@@ -22,9 +22,9 @@ the bug that was introduced?
 How could having easy access to the entire history of file make you a more
 efficient programmer?
 
->>At any point in time I can revert my code back to a previous state, if new
->>changes are causing a problem.
->>All the changes made to the old code can be pin pointed.
+>> At any point in time I can revert my code back to a previous state, if new
+>> changes are causing a problem.
+>> All the changes made to the old code can be pin pointed.
 
 
 What do you think are the pros and cons of manually choosing when to commit,
@@ -45,7 +45,7 @@ does?
 
 
 Why do you think some version control systems, like Git, allow saving multiple
-file sin one commit, while others, like Google Docs, treat each file separately?
+files in one commit, while others, like Google Docs, treat each file separately?
 
 >> Programmers and programming languages/practices encourage abstraction of
 >> code, which is why using the object oriented approach every logically
@@ -78,4 +78,6 @@ could break something?
 
 How do you want to use Git?
 
->> I like to use Git as is it works as expected
+>> I want to use Git in helping me create complex applications, where I can
+>> make change to the code with the confidence that if the application breaks
+>> I can revert back to a working state of the application. 
