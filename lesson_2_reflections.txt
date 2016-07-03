@@ -34,6 +34,10 @@ organized? How would branches help?
 
 How do the diagrams help you visualize the branch structure?
 
+>> Diagrams help visualize the diiferent commits created across a project's history,
+>> the parent commit of each commit and a reachablilty of commits across the timeline.
+>> Diagrams also pinpoint exact location of diversion of a branch from another. 
+
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
