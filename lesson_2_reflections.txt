@@ -41,5 +41,13 @@ How do the diagrams help you visualize the branch structure?
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
+>> Merging two branches together causes git to merge the the file(s) carried 
+>> by each branch into a single file(s), which is the new commit linking both the 
+>> branches i.e. The new resulting commit has two parents which are the two branches 
+>> merged. 
+>> We repersent mergeing in the diagram as a new commit(node) with links to the previous
+>> HEADs of the two branches. It shows that mergeing of the branches result in a new 
+>> commit which is a combination of the two merged branches.
+
 What are the pros and cons of Gitâ€™s automatic merging vs. always doing merges
 manually?
