@@ -21,10 +21,10 @@ use one instead of another?
 >> orginal creator of the repo.
 >> Clones are copies of repos you make form GitHub by pulling down the code form the 
 >> repo locally on to your machine.
->> Branches are subsection of your repository containing experimental changes, hot-fixes,
+>> Branches are subsections of your repository containing experimental changes, hot-fixes,
 >> new features etc. not currenty part of your production code(i.e master branch)
 >>
->> Forks are used when you want to make chages to someone else's repo. Clones are 
+>> Forks are used when you want to make changes to someone else's repo. Clones are 
 >> used when you want to pull down a repo locally to your machine. Branches are used
 >> to create subdivisions in the repo.
 
