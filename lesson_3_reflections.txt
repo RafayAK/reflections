@@ -31,7 +31,10 @@ use one instead of another?
 What is the benefit of having a copy of the last known state of the remote
 stored locally?
 
-    Fill in your answer here
+>> Last known state of the remote lets us know how up-to-date or out-of-sync our local 
+>> repo is compared to the remote repo. Further, using command "git fetch" Git can pull the 
+>> changes made by collaborators ,since the last time you pulled or pushed, into a new branch 
+>> (origin/branch_name) so that you may inspect the changes made to the remote before merging your code.  
 
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
