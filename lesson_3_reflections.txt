@@ -39,7 +39,14 @@ stored locally?
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
 
-    Fill in your answer here
+>> Collaborating without Git or GitHub would be done through email exchanges.
+>> The emails would contain only the files to which changes have been made so that 
+>> they can be reviewed by other collaborators and incorporated into their local copy 
+>> of the project. 
+>> Merging code would be harder, so would be making experimental changes, reverting 
+>> to a previous working build of the project near impossibble and find changes made by other
+>> collaborators in bigger files of code a tedious process.
+>> Conversations with collaborators on project changes would be easier.  
 
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
