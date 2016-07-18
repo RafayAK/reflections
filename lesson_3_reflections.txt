@@ -51,4 +51,7 @@ and what would be harder?
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
 
-    Fill in your answer here
+>> You would want to make changes seperately in a branch when you are making experimental changes
+>> or changes you want feedback on from your collaborators, before merging them into master branch.
+>> Keeping up-to-date with master is tedious when working in seperate branch.
+>> Making all the changes in master could break master if there is an error in the code. 
